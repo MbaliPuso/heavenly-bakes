@@ -10,7 +10,7 @@ const Navbar = () => {
         data-wow-delay="0.1s"
       >
         <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
-          <h1 className="text-primary m-0">Baker</h1>
+          <h1 className="text-primary m-0">Heavenly Bakery</h1>
         </a>
         <button
           type="button"
