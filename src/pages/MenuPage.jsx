@@ -17,7 +17,7 @@ const MenuPage = () => {
             data-wow-delay="0.1s"
             style={{ maxWidth: 500 }}
           >
-            <p className="text-primary text-uppercase mb-2">Bakery Products</p>
+            <p className="text-warning text-uppercase mb-2">Bakery Products</p>
             <h1 className="display-6 mb-4">
               Explore The Categories Of Our Bakery Products
             </h1>
@@ -29,7 +29,7 @@ const MenuPage = () => {
             >
               <div className="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                 <div className="text-center p-4">
-                  <div className="d-inline-block border border-primary rounded-pill px-3 mb-3">
+                  <div className="d-inline-block border border-warning rounded-pill px-3 mb-3">
                     R119 - R990
                   </div>
                   <h3 className="mb-3">Cake</h3>
@@ -60,7 +60,7 @@ const MenuPage = () => {
             >
               <div className="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                 <div className="text-center p-4">
-                  <div className="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                  <div className="d-inline-block border border-warning rounded-pill pt-1 px-3 mb-3">
                     R119 - R990
                   </div>
                   <h3 className="mb-3">Bread</h3>
@@ -91,7 +91,7 @@ const MenuPage = () => {
             >
               <div className="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                 <div className="text-center p-4">
-                  <div className="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                  <div className="d-inline-block border border-warning rounded-pill pt-1 px-3 mb-3">
                     R119 - R990
                   </div>
                   <h4 className="mb-3">Cookies</h4>

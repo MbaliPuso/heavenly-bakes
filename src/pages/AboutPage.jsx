@@ -3,6 +3,7 @@ import Navbar from "../components/Navigation";
 import Footer from "../components/Footer";
 
 const AboutPage = () => {
+    
   return (
     <>
       {/* Navbar start */}
@@ -33,7 +34,7 @@ const AboutPage = () => {
             </div>
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="h-100">
-                <p className="text-primary text-uppercase mb-2">About Us</p>
+                <p className="text-warning text-uppercase mb-2">About Us</p>
                 <h1 className="display-6 mb-4">
                   We Bake Every Item From The Core Of Our Hearts
                 </h1>
@@ -45,23 +46,23 @@ const AboutPage = () => {
                 </p>
                 <div className="row g-2 mb-4">
                   <div className="col-sm-6">
-                    <i className="fa fa-check text-primary me-2" />
+                    <i className="fa fa-check text-warning me-2" />
                     Quality Products
                   </div>
                   <div className="col-sm-6">
-                    <i className="fa fa-check text-primary me-2" />
+                    <i className="fa fa-check text-warning me-2" />
                     Custom Products
                   </div>
                   <div className="col-sm-6">
-                    <i className="fa fa-check text-primary me-2" />
+                    <i className="fa fa-check text-warning me-2" />
                     Online Order
                   </div>
                   <div className="col-sm-6">
-                    <i className="fa fa-check text-primary me-2" />
+                    <i className="fa fa-check text-warning me-2" />
                     Home Delivery
                   </div>
                 </div>
-                <a href="/" className="btn btn-primary rounded-pill py-3 px-5">
+                <a href="/" className="btn btn-primary btn-outline-warning rounded-pill py-3 px-5">
                   Read More
                 </a>
               </div>

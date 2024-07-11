@@ -6,11 +6,11 @@ const Navbar = () => {
     <>
       {/* Navbar Start */}
       <nav
-        className="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn"
+        className="navbar navbar-expand-lg navbar-warning fixed-top py-lg-0 px-lg-5 wow fadeIn"
         data-wow-delay="0.1s"
       >
         <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
-          <h1 className="text-primary m-0">Heavenly Bakery</h1>
+          <h1 className="text-white m-0">Heavenly Bakery</h1>
         </a>
         <button
           type="button"
@@ -21,7 +21,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
-          <div className="navbar-nav mx-auto p-4 p-lg-0">
+          <div className="navbar-nav mx-auto p-4 p-lg-0 text-white">
             <li className="nav-item nav-link active">
               <Link to="/">Home</Link>
             </li>
@@ -34,10 +34,10 @@ const Navbar = () => {
           </div>
           <div className=" d-none d-lg-flex">
             <div className="flex-shrink-0 btn-lg-square border border-light rounded-circle">
-              <i className="fa fa-phone text-primary" />
+              <i className="fa fa-phone text-white" />
             </div>
             <div className="ps-3">
-              <small className="text-primary mb-0">Call Us</small>
+              <small className="text-white mb-0">Call Us</small>
               <p className="text-light fs-5 mb-0">+012 345 6789</p>
             </div>
           </div>
