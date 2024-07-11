@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Carousel, Container, Row, Col, Button } from "react-bootstrap";
 import Navbar from "../components/Navigation";
 import Footer from "../components/Footer";
 
 const HomePage = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <>
       <div>
@@ -13,16 +18,16 @@ const HomePage = () => {
 
         {/* Carousel Start */}
         <Container fluid className="p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-          <Carousel>
+          <Carousel activeIndex={index} onSelect={handleSelect} controls={false} indicators={false}>
             <Carousel.Item>
               <img
                 className="d-block w-100"
                 src="img/carousel-1.jpg"
                 alt="Carousel 1"
               />
-              <Carousel.Caption className="d-none d-md-block">
+              <Carousel.Caption className="d-md-block">
                 <Container>
-                  <Row className="justify-content-start">
+                  <Row className="justify-content-center">
                     <Col lg={8}>
                       <p className="text-primary text-uppercase fw-bold mb-2">
                         The Best Bakery
@@ -31,8 +36,7 @@ const HomePage = () => {
                         We Bake With Passion
                       </h1>
                       <p className="text-light fs-5 mb-4 pb-3">
-                        Vero elitr justo clita lorem. Ipsum dolor sed stet sit
-                        diam rebum ipsum.
+                        Experience the warmth and aroma of freshly baked bread, pastries, and cakes made with love and the finest ingredients. Indulge in our delightful treats that bring joy to every bite.
                       </p>
                       <Button
                         href="/"
@@ -51,9 +55,9 @@ const HomePage = () => {
                 src="img/carousel-2.jpg"
                 alt="Carousel 2"
               />
-              <Carousel.Caption className="d-none d-md-block">
+              <Carousel.Caption className="d-md-block">
                 <Container>
-                  <Row className="justify-content-start">
+                  <Row className="justify-content-center">
                     <Col lg={8}>
                       <p className="text-primary text-uppercase fw-bold mb-2">
                         The Best Bakery
@@ -62,8 +66,7 @@ const HomePage = () => {
                         We Bake With Passion
                       </h1>
                       <p className="text-light fs-5 mb-4 pb-3">
-                        Vero elitr justo clita lorem. Ipsum dolor sed stet sit
-                        diam rebum ipsum.
+                        From crusty artisanal loaves to sweet and savory pastries, our bakery offers a wide range of delicious baked goods that are perfect for any occasion. Come and taste the difference!
                       </p>
                       <Button
                         href="/"
@@ -77,6 +80,10 @@ const HomePage = () => {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
+          <div className="header-carousel owl-nav">
+            <span className="owl-prev" onClick={() => setIndex(index === 0 ? 1 : 0)}><i className="bi bi-chevron-left"></i></span>
+            <span className="owl-next" onClick={() => setIndex(index === 1 ? 0 : 1)}><i className="bi bi-chevron-right"></i></span>
+          </div>
         </Container>
         {/* Carousel End */}
         {/* Facts Start */}
