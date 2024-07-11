@@ -38,14 +38,10 @@ const AboutPage = () => {
                   We Bake Every Item From The Core Of Our Hearts
                 </h1>
                 <p>
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                  sed stet lorem sit clita duo justo magna dolore erat amet
+                    At our bakery, we believe in using only the finest ingredients to create delicious baked goods. Each item is crafted with attention to detail, ensuring that every bite is a moment of joy.
                 </p>
                 <p>
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                  sed stet lorem sit clita duo justo magna dolore erat amet
+                    From our signature breads to our custom cakes, we strive to deliver products that not only taste great but also bring a smile to your face. We are dedicated to providing exceptional quality and service to our customers.
                 </p>
                 <div className="row g-2 mb-4">
                   <div className="col-sm-6">

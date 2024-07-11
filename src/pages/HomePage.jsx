@@ -25,13 +25,14 @@ const HomePage = () => {
                   <Row className="justify-content-start">
                     <Col lg={8}>
                       <p className="text-primary text-uppercase fw-bold mb-2">
-                        The Best Bakery In Town
+                        The Best Bakery
                       </p>
                       <h1 className="display-1 text-light mb-4 animated slideInDown">
-                        Baked With Love And Perfection
+                        We Bake With Passion
                       </h1>
                       <p className="text-light fs-5 mb-4 pb-3">
-                      From freshly baked bread to exquisite pastries, our bakery offers a delightful experience in every bite. Enjoy our handcrafted goodies made with the finest ingredients.
+                        Vero elitr justo clita lorem. Ipsum dolor sed stet sit
+                        diam rebum ipsum.
                       </p>
                       <Button
                         href="/"
@@ -55,19 +56,20 @@ const HomePage = () => {
                   <Row className="justify-content-start">
                     <Col lg={8}>
                       <p className="text-primary text-uppercase fw-bold mb-2">
-                        Tradition and Taste
+                        The Best Bakery
                       </p>
                       <h1 className="display-1 text-light mb-4 animated slideInDown">
-                        Bringing Joy with Every Slice
+                        We Bake With Passion
                       </h1>
                       <p className="text-light fs-5 mb-4 pb-3">
-                        Our commitment to quality and tradition sets us apart. Each product is a testament to our dedication to baking excellence, ensuring you savor every moment.
+                        Vero elitr justo clita lorem. Ipsum dolor sed stet sit
+                        diam rebum ipsum.
                       </p>
                       <Button
                         href="/"
                         className="btn btn-primary rounded-pill py-3 px-5"
                       >
-                        Discover More
+                        Read More
                       </Button>
                     </Col>
                   </Row>
@@ -142,7 +144,10 @@ const HomePage = () => {
                 <p className="text-primary text-uppercase mb-2">Our Services</p>
                 <h1 className="display-6 mb-4">What Do We Offer For You?</h1>
                 <p className="mb-5">
-                  We offer a variety of services to meet all your bakery needs. From custom cakes for special occasions to everyday bread and pastries, our products are made with the highest quality ingredients and the utmost care.
+                  We offer a variety of services to meet all your bakery needs.
+                  From custom cakes for special occasions to everyday bread and
+                  pastries, our products are made with the highest quality
+                  ingredients and the utmost care.
                 </p>
                 <div className="row gy-5 gx-4">
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -153,7 +158,8 @@ const HomePage = () => {
                       <h5 className="mb-0">Quality Products</h5>
                     </div>
                     <span>
-                      We use only the finest ingredients to create delicious and nutritious baked goods.
+                      We use only the finest ingredients to create delicious and
+                      nutritious baked goods.
                     </span>
                   </div>
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
@@ -164,7 +170,8 @@ const HomePage = () => {
                       <h5 className="mb-0">Custom Products</h5>
                     </div>
                     <span>
-                      Our team can create custom cakes and pastries to make your special occasion even more memorable.
+                      Our team can create custom cakes and pastries to make your
+                      special occasion even more memorable.
                     </span>
                   </div>
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
@@ -175,7 +182,8 @@ const HomePage = () => {
                       <h5 className="mb-0">Online Order</h5>
                     </div>
                     <span>
-                      Convenient online ordering allows you to enjoy our products from the comfort of your home.
+                      Convenient online ordering allows you to enjoy our
+                      products from the comfort of your home.
                     </span>
                   </div>
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
@@ -186,7 +194,8 @@ const HomePage = () => {
                       <h5 className="mb-0">Home Delivery</h5>
                     </div>
                     <span>
-                      We offer home delivery to ensure you receive fresh and delicious baked goods right at your doorstep.
+                      We offer home delivery to ensure you receive fresh and
+                      delicious baked goods right at your doorstep.
                     </span>
                   </div>
                 </div>
@@ -229,75 +238,93 @@ const HomePage = () => {
                 More Than 20000+ Customers Trusted Us
               </h1>
             </div>
+
             <div
               className="owl-carousel testimonial-carousel wow fadeInUp"
               data-wow-delay="0.1s"
             >
-              <div className="testimonial-item bg-white rounded p-4">
-                <div className="d-flex align-items-center mb-4">
-                  <img
-                    className="flex-shrink-0 rounded-circle border p-1"
-                    src="img/testimonial-1.jpg"
-                    alt="testimonial 1"
-                  />
-                  <div className="ms-4">
-                    <h5 className="mb-1">Sarah Johnson</h5>
-                    <span>Marketing Manager</span>
+              <Carousel indicators={false} controls={true} interval={null}>
+                <Carousel.Item>
+                  <div className="testimonial-item bg-white rounded p-4">
+                    <div className="d-flex align-items-center mb-4">
+                      <img
+                        className="flex-shrink-0 rounded-circle border p-1"
+                        src="img/testimonial-1.jpg"
+                        alt="testimonial 1"
+                      />
+                      <div className="ms-4">
+                        <h5 className="mb-1">Jane Doe</h5>
+                        <span>Food Blogger</span>
+                      </div>
+                    </div>
+                    <p className="mb-0">
+                      "The pastries here are simply divine! Every bite takes me
+                      on a journey of delightful flavors. Highly recommend!"
+                    </p>
                   </div>
-                </div>
-                <p className="mb-0">
-                  "The pastries at this bakery are simply divine! Every bite is a delightful experience. Highly recommend to all pastry lovers."
-                </p>
-              </div>
-              <div className="testimonial-item bg-white rounded p-4">
-                <div className="d-flex align-items-center mb-4">
-                  <img
-                    className="flex-shrink-0 rounded-circle border p-1"
-                    src="img/testimonial-2.jpg"
-                    alt="testimonial 2"
-                  />
-                  <div className="ms-4">
-                    <h5 className="mb-1">John Smith</h5>
-                    <span>Chef</span>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="testimonial-item bg-white rounded p-4">
+                    <div className="d-flex align-items-center mb-4">
+                      <img
+                        className="flex-shrink-0 rounded-circle border p-1"
+                        src="img/testimonial-2.jpg"
+                        alt="testimonial 2"
+                      />
+                      <div className="ms-4">
+                        <h5 className="mb-1">John Smith</h5>
+                        <span>Chef</span>
+                      </div>
+                    </div>
+                    <p className="mb-0">
+                      "This bakery has some of the best bread I've ever tasted.
+                      The texture and flavor are unmatched. A true gem!"
+                    </p>
                   </div>
-                </div>
-                <p className="mb-0">
-                  As a chef, I am always looking for high-quality ingredients and baked goods. This bakery never disappoints. The bread is always fresh and delicious.
-                </p>
-              </div>
-              <div className="testimonial-item bg-white rounded p-4">
-                <div className="d-flex align-items-center mb-4">
-                  <img
-                    className="flex-shrink-0 rounded-circle border p-1"
-                    src="img/testimonial-3.jpg"
-                    alt="testimonial 3"
-                  />
-                  <div className="ms-4">
-                    <h5 className="mb-1">Emily Davis</h5>
-                    <span>Event Planner</span>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="testimonial-item bg-white rounded p-4">
+                    <div className="d-flex align-items-center mb-4">
+                      <img
+                        className="flex-shrink-0 rounded-circle border p-1"
+                        src="img/testimonial-3.jpg"
+                        alt="testimonial 3"
+                      />
+                      <div className="ms-4">
+                        <h5 className="mb-1">Emily Johnson</h5>
+                        <span>Pastry Enthusiast</span>
+                      </div>
+                    </div>
+                    <p className="mb-0">
+                      "The cakes are not just beautiful but also incredibly
+                      delicious. Perfect for any celebration or just a sweet
+                      treat."
+                    </p>
                   </div>
-                </div>
-                <p className="mb-0">
-                  I always recommend this bakery to my clients for their events. The custom cakes are not only beautiful but also incredibly tasty.
-                </p>
-              </div>
-              <div className="testimonial-item bg-white rounded p-4">
-                <div className="d-flex align-items-center mb-4">
-                  <img
-                    className="flex-shrink-0 rounded-circle border p-1"
-                    src="img/testimonial-4.jpg"
-                    alt="testimonial 4"
-                  />
-                  <div className="ms-4">
-                    <h5 className="mb-1">Michael Brown</h5>
-                    <span>Food Blogger</span>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="testimonial-item bg-white rounded p-4">
+                    <div className="d-flex align-items-center mb-4">
+                      <img
+                        className="flex-shrink-0 rounded-circle border p-1"
+                        src="img/testimonial-4.jpg"
+                        alt="testimonial 4"
+                      />
+                      <div className="ms-4">
+                        <h5 className="mb-1">Michael Brown</h5>
+                        <span>Local Resident</span>
+                      </div>
+                    </div>
+                    <p className="mb-0">
+                      "I love the variety of baked goods available here. The
+                      service is always friendly, and the ambiance is cozy."
+                    </p>
                   </div>
-                </div>
-                <p className="mb-0">
-                  This bakery has some of the best baked goods I've ever tasted. Their attention to detail and use of quality ingredients really shines through.
-                </p>
-              </div>
+                </Carousel.Item>
+              </Carousel>
             </div>
+            {/* Carousel end */}
+
             <div
               className="bg-primary text-light rounded-top p-5 my-6 mb-0 wow fadeInUp"
               data-wow-delay="0.1s"

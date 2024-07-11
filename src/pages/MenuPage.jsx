@@ -34,8 +34,7 @@ const MenuPage = () => {
                   </div>
                   <h3 className="mb-3">Cake</h3>
                   <span>
-                    Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                    amet diam et eos
+                    Enjoy our delicious cakes, made with the finest ingredients and a touch of love. Perfect for any occasion.
                   </span>
                 </div>
                 <div className="position-relative mt-auto">
@@ -66,8 +65,7 @@ const MenuPage = () => {
                   </div>
                   <h3 className="mb-3">Bread</h3>
                   <span>
-                    Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                    amet diam et eos
+                    Freshly baked bread, soft and flavorful. Perfect for sandwiches, toast, or just on its own.
                   </span>
                 </div>
                 <div className="position-relative mt-auto">
@@ -98,8 +96,7 @@ const MenuPage = () => {
                   </div>
                   <h4 className="mb-3">Cookies</h4>
                   <span>
-                    Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                    amet diam et eos
+                  Enjoy our delightful assortment of cookies, crafted with care and the finest ingredients. Perfect for any occasion or as a sweet treat.
                   </span>
                 </div>
                 <div className="position-relative mt-auto">
